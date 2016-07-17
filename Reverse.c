@@ -3,10 +3,10 @@
 #include<string.h>
 void main()
 {
-char a[10],b[10];
+char a1[10],b1[10];
 clrscr();
-scanf("%s",&a);
-b=strrev(a);
-printf("Reverse of a string:%s",b);
+scanf("%s",&a1);
+b1=strrev(a1);
+printf("Reverse:%s",b1);
 getch();
 }
